@@ -1045,6 +1045,10 @@
       "swing": -1,
       "open": true
      }
+    ],
+    "ends": [
+     0,
+     0
     ]
    },
    {
@@ -1087,7 +1091,11 @@
     ],
     "thickness": 0.25,
     "exterior": false,
-    "openings": []
+    "openings": [],
+    "ends": [
+     0,
+     0
+    ]
    },
    {
     "id": "p-wc-v",
@@ -1101,7 +1109,11 @@
     ],
     "thickness": 0.28,
     "exterior": false,
-    "openings": []
+    "openings": [],
+    "ends": [
+     0,
+     0
+    ]
    },
    {
     "id": "p-wc-j",
@@ -1353,7 +1365,10 @@
   "screens": [
    {
     "id": "tv-obyvak",
-    "title": "Video prohlídka",
+    "title": "Ukázka videa – sem patří video projektu",
+    "video": "video/fd-reel.mp4",
+    "videoSd": "video/fd-reel-720.mp4",
+    "poster": "video/fd-reel-poster.jpg",
     "roomId": "obyvak",
     "x": 8.35,
     "z": 0.406,
@@ -1550,7 +1565,7 @@
      "d": 0.6,
      "h": 2.3,
      "color": 15724008,
-     "variant": "builtin"
+     "variant": "plain"
     },
     {
      "id": "loznice-koberec",
@@ -1574,7 +1589,7 @@
      "d": 0.6,
      "h": 2.3,
      "color": 15724008,
-     "variant": "builtin"
+     "variant": "plain"
     },
     {
      "id": "pokoj-postel",
@@ -1623,7 +1638,7 @@
      "d": 0.6,
      "h": 2.3,
      "color": 15724008,
-     "variant": "builtin"
+     "variant": "plain"
     },
     {
      "id": "balkon-stolek",
@@ -1984,18 +1999,6 @@
      "y": 0.75,
      "h": 0.38,
      "color": 15196114
-    },
-    {
-     "id": "hala-zrcadlo",
-     "kind": "mirror",
-     "roomId": "hala",
-     "x": 5.75,
-     "z": 5.34,
-     "facing": "N",
-     "w": 0.5,
-     "d": 0.03,
-     "h": 1.2,
-     "y": 1.4
     },
     {
      "id": "hala-koberec",
